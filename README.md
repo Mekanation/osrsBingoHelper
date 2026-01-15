@@ -1,0 +1,2 @@
+# osrsBingoHelper
+svelte + nodejs
