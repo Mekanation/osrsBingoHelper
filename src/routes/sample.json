@@ -1,0 +1,36 @@
+{
+    "name": "Gmekanation",
+    "attack": "82",
+    "defence": "81",
+    "strength": "89",
+    "hitpoints": "90",
+    "ranged": "88",
+    "prayer": "79",
+    "magic": "86",
+    "cooking": "84",
+    "woodcutting": "88",
+    "fletching": "80",
+    "fishing": "79",
+    "firemaking": "99",
+    "crafting": "87",
+    "smithing": "88",
+    "mining": "90",
+    "herblore": "82",
+    "agility": "85",
+    "thieving": "76",
+    "slayer": "81",
+    "farming": "87",
+    "runecraft": "71",
+    "hunter": "93",
+    "construction": "72",
+    "sailing": "48",
+    "beginner clues": "15",
+    "easy clues": "12",
+    "medium clues": "47",
+    "hard clues": "56",
+    "elite clues": "4",
+    "master clues": "0"
+
+
+
+}

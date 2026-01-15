@@ -1,0 +1,9 @@
+@font-face {
+  font-family: 'osrs';
+  src: url('/fonts/runescape.ttf')
+}
+
+    body {
+        font-family: osrs;
+        background-color: #26292F;
+    }
