@@ -557,7 +557,7 @@ let gridOptions2: GridOptions = {
                   ${templatePart1}
                                       <img title="Alchemical Hydra" src="/sprites/alchemicalHydra.png"/>
                        ${templatePart2}`},
-            field: "Hydra"
+            field: "Alchemical Hydra"
         },
         { 
             headerName: '',
