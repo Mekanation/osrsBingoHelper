@@ -1344,10 +1344,10 @@ type Player = {
 </div>
 <div class="outerbox">
     <div class="contents" class:active={showSkills}>
-    <div style="height: 100%" bind:this={divContainerEl} class:active={showSkills} class='box'></div>
+    <div style="height: 200px" bind:this={divContainerEl} class:active={showSkills} class='box'></div>
     </div>
     <div class="contents2" class:active={showBoss}>
-    <div style="height: 100%" bind:this={divContainerE2} class:active={showBoss} class='box'></div>
+    <div style="height: 200px" bind:this={divContainerE2} class:active={showBoss} class='box'></div>
     </div>
 </div>
 
@@ -1355,10 +1355,12 @@ type Player = {
 <style>
     .outerbox{
         display: grid;
+        min-height: 100vh;
     }
     .contents,.contents2{
          grid-row: 1;
          grid-column: 1;
+         height: 100%;
     }
 	.grid {
         display: flex;
@@ -1430,7 +1432,7 @@ type Player = {
     transition: opacity 0.3s ease;
     opacity: 0; /* Default opacity */
     z-index: 5;
-    min-height: 600px;
+    min-height: 100%;
     }
     .buttonText {
         font-family: osrs;
