@@ -1292,7 +1292,7 @@ type Player = {
 }
         async function getOsrsPlayer(playerName: string) {
         console.log(value)
-        const res = await fetch(`http://127.0.0.1:3000/api/player?name=${playerName}`);
+        const res = await fetch(`https://tools.mekanation.com/api/player?name=${playerName}`);
          if(res.ok){
             const json = await res.json();
             return json;

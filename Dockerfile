@@ -1,10 +1,10 @@
 FROM node:25-alpine AS builder
 WORKDIR /app
 COPY package*.json ./
-run npm ci
-copy . .
-run npm run build
-run npm prune --production
+RUN npm ci
+COPY . .
+RUN npm run build
+RUN npm prune --production
 
 FROM node:25-alpine
 WORKDIR /app
